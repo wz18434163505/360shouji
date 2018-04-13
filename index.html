@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/index.css">
+        <!-- 修改视口 -->
+        <meta name="viewport" content="width=device-width">
+        <script src="js/rem.js"></script>
+        <link rel="stylesheet" href="http://at.alicdn.com/t/font_599193_5jprahbugak2zkt9.css">
+        <link rel="stylesheet" href="css/swiper-4.1.6.min.css">
+        <script src="js/swiper-4.1.6.min.js"></script>
+    </head>
+    <body>
+		<header>
+			<a class="header_left">
+				<!-- <i class="iconfont icon-msnui-360"></i>
+				<div class="phone_text">360手机</div> -->
+                <img src="img/logo.png" alt="">
+			</a>
+            <a class="header_right">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+		</header>
+        <!-- banner开始 -->
+        <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a class="swiper_img1"></a>
+            </div>
+            <div class="swiper-slide">
+                <a class="swiper_img2"></a>
+            </div>
+            <div class="swiper-slide">
+                <a class="swiper_img3"></a>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+       <!--  <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+         -->
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        <!-- <div class="banner"></div> -->
+        <!-- banner结束 -->
+        <!-- 图片列表开始 -->
+        <ul class="img_list">
+            <li>
+                <a href="" class="list1">
+                    <h1>360 手机 N6系列</h1>
+                    <h2>爆品现货购</h2>
+                </a>
+            </li>
+            <li>
+                <a href="" class="list2">
+                    <h1>天猫旗舰店年货节</h1>
+                    <h2>明星机直降250</h2>
+                </a>
+            </li>
+            <li>
+                <a href="" class="list3">
+                    <h1>京东旗舰店</h1>
+                    <h2>明星单品现货购</h2>
+                </a>
+            </li>
+            <li>
+                <a href="" class="list4">
+                    <h1>360 OS 3.0</h1>
+                    <h2>安全、轻快、省电、黑科技</h2>
+                </a>
+            </li>
+        </ul>
+        <!-- 图片列表结束 -->
+        <!-- 服务开始 -->
+        <div class="footer">
+            <div class="footer_list">
+                <ul>
+                    <li>
+                        <span class="footer_list_lift">产品推荐</span>
+                        <span class="footer_list_right">+</span>
+                    </li>
+                    <li>
+                        <span class="footer_list_lift">服务支持</span>
+                        <span class="footer_list_right">+</span>
+                    </li>
+                    <li>
+                        <span class="footer_list_lift">订单服务</span>
+                        <span class="footer_list_right">+</span>
+                    </li>
+                    <li>
+                        <span class="footer_list_lift">关于公司</span>
+                        <span class="footer_list_right">+</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_tel">
+                <ul>
+                    <p>
+                        <a href="" class="footer_tel_call">400-011-1366</a>
+                    </p>
+                    <li>服务时间：周一到周日</li>
+                    <li>9:00-21:00（仅收市话费）</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 服务结束 -->
+        <!-- 地址及分享开始 -->
+        <div class="foot_bottom">
+            <p>
+                <a href="">站点地图</a><a href="">问题反馈</a>
+            </p>
+            <p>京ICP证080047号 京ICP备08010314号-35 &nbsp;&nbsp;</p>
+            <p>CopyRight ©2018  奇酷互联网络科技(深圳)有限公司 版权所有 </p>
+            <a class="icon_link">
+                <i class="iconfont icon-logo-weibo"></i>
+                <i class="iconfont icon-logo-wechat"></i>
+                <i class="iconfont icon-ai29"></i>
+            </a>
+        </div>
+        <!-- 地址及分享结束 -->
+    <script>        
+      var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        
+        // 如果需要分页器
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        speed:1000,
+          autoplay : {
+            delay:3000
+          },
+        // 如果需要前进后退按钮
+        // navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        // },
+        
+        // 如果需要滚动条
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })        
+      </script>   
+    </body>
+</html>
